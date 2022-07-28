@@ -1,0 +1,39 @@
+*:where(:not(html, canvas, iframe, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    line-height: 1;
+    text-size-adjust: 100%;
+}
+a,
+button {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+q::before,
+q::after {
+    content: unset;
+}
+ol,
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+table {
+    border-collapse: collapse;
+}
+textarea {
+    vertical-align: top;
+    white-space: revert;
+}
+input::placeholder {
+    color: unset;
+}
