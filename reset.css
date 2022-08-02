@@ -2,6 +2,10 @@
     all: unset;
     display: revert;
 }
+*::before,
+*::after {
+    all: unset;
+}
 *,
 *::before,
 *::after {
@@ -15,10 +19,6 @@ a,
 button {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-}
-q::before,
-q::after {
-    content: unset;
 }
 ol,
 ul {
