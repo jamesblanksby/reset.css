@@ -34,6 +34,7 @@ textarea {
     vertical-align: top;
     white-space: revert;
 }
-input::placeholder {
+*:where(input, textarea)::placeholder {
     color: unset;
+    opacity: 1;
 }
