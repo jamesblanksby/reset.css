@@ -30,6 +30,10 @@ img {
 table {
     border-collapse: collapse;
 }
+input,
+textarea {
+    -webkit-user-select: auto;
+}
 textarea {
     vertical-align: top;
     white-space: revert;
