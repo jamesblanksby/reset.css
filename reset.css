@@ -21,7 +21,8 @@ button {
     cursor: pointer;
 }
 ol,
-ul {
+ul,
+summary {
     list-style: none;
 }
 img {
